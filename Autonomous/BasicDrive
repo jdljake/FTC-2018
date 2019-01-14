@@ -32,8 +32,8 @@ public class BasicDrive extends LinearOpMode {
         telemetry.update();
 
         // Connects with the motors
-        leftMotor = hardwareMap.dcMotor.get("Left_Motor");
-        rightMotor = hardwareMap.dcMotor.get("Right_Motor");
+        Left_Drive = hardwareMap.dcMotor.get("Left_Drive");
+        Right_Drive = hardwareMap.dcMotor.get("Right_Drive");
 
         //reverses motor
         leftMotor.setDirection(DcMotor.Direction.REVERSE);
